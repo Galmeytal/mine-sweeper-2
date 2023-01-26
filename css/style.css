@@ -1,0 +1,17 @@
+body {
+    margin : 20px auto;
+    text-align:center;
+}
+
+table {
+    margin: 20px auto;
+    color: red;
+    border: 10px solid;
+    text-align:center;
+}
+
+table tr td {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #000;
+}
