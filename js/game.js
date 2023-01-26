@@ -104,7 +104,7 @@ function onCellClicked(row, col) {
         
         if(!gBoard[row][col].isMine)
             tdObject.innerHTML = gBoard[row][col].minesAroundCount;
-        else
+        else 
             tdObject.innerHTML = MINE;
 
         gBoard[row][col].isShown = true;
